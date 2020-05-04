@@ -1,0 +1,6 @@
+<launch>
+<!--RVIZ-->
+  <node pkg="rviz" type="rviz" name="rviz" args="$(find ekf-turtlebot)/Lab/ekf_lab.rviz"/>
+  <!--Use this insted if you are cloning the whole repo in your src-->
+  <!--<node pkg="rviz" type="rviz" name="rviz" args="/home/workspace/catkin_ws/src/ekf_lab.rviz"/>-->
+</launch>
